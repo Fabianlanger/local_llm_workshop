@@ -1,0 +1,18 @@
+name: lllmcrag  
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - pip
+  - BeautifulSoup4
+  - pip:
+      - langchain_community
+      - tiktoken
+      - langchainhub
+      - chromadb
+      - langchain
+      - langgraph
+      - tavily-python
+      - langchain-mistralai
+      - gpt4all
